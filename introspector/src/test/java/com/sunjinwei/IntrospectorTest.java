@@ -12,7 +12,7 @@ import java.lang.reflect.Method;
 /**
  * 内省机制学习
  * 1什么是内省
- * 通过反射的方式操作JavaBean的属性，jdk提供了PropertyDescription类来操作访问JavaBean的属性，Beantils工具基于此来实现
+ * 通过反射的方式操作JavaBean的属性，jdk提供了PropertyDescription类来操作访问JavaBean的属性，BeanUtils工具基于此来实现
  *
  * 2如何使用内省  执行写操作 就是使用setter方法；执行读操作 就是使用get方法
  *  操作一个属性
